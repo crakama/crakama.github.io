@@ -16,13 +16,17 @@ html {
 
  /* background-color: #ffffff;
   border: 1px solid black;*/
-  font-weight: bolder;
+  
   opacity: 0.1;
   background-color:rgba(0,0,0,0.1);
   filter: alpha(opacity=10); /* For IE8 and earlier */
 
 
 font-weight: 
+}
+.content{
+font-weight: 900;
+
 }
 
 [class*='grid'],
