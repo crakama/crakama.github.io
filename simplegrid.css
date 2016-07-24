@@ -19,7 +19,7 @@ html {
  /* opacity: 0.1;
   background-color:rgba(0,0,0,0.15);
   filter: alpha(opacity=60); /* For IE8 and earlier */*/
-      background: rgba(76, 175, 80, 0.1);
+      background: rgba(0, 0, 0, 0.1);
    /*   background: rgb(76, 175, 80);*/ /* Fallback for older browsers without RGBA-support */
     
 }
