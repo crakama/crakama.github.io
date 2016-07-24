@@ -17,17 +17,13 @@ html {
  /* background-color: #ffffff;
   border: 1px solid black;*/
   
-  opacity: 0.1;
+/*  opacity: 0.1;
   background-color:rgba(0,0,0,0.1);
-  filter: alpha(opacity=10); /* For IE8 and earlier */
-
-
-font-weight: 
+  filter: alpha(opacity=10); /* For IE8 and earlier */*/
+font-weight: 900 !important;
 }
-.content{
-font-weight: 900;
+ 
 
-}
 
 [class*='grid'],
 [class*='col-'],
@@ -54,12 +50,21 @@ font-weight: 900;
 	min-width: 748px; /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
 	margin: 0 auto;
 	overflow: hidden;
+
+
+	  opacity: 0.1;
+  background-color:rgba(0,0,0,0.1);
+  filter: alpha(opacity=10); /* For IE8 and earlier */
 }
 
 .grid:after {
 	content: "";
 	display: table;
 	clear: both;
+
+	  opacity: 0.1;
+  background-color:rgba(0,0,0,0.1);
+  filter: alpha(opacity=10); /* For IE8 and earlier */
 }
 
 .grid-pad {
