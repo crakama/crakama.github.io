@@ -19,9 +19,9 @@ html {
   background: #377D7A;
   /*border: 1px solid black;*/
   
-  opacity: 0.2;
+  opacity: 0.4;
 
-  filter: alpha(opacity=20); /* For IE8 and earlier */*/
+  filter: alpha(opacity=40); /* For IE8 and earlier */*/
 font-weight: 900 !important;
 }
  
