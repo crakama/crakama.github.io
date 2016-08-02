@@ -11,8 +11,9 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-#transbox{
+#transbox {
 	color: white;
+	text-decoration: none;
 
 
  /* background-color: #ffffff;
