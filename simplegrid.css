@@ -13,8 +13,13 @@ html {
 }
 .panel{
 
-	overflow: hidden;
+	max-height: 0;
+    overflow: hidden;
     transition: 0.6s ease-in-out;
+}
+.panel.show {
+
+	  max-height: 500px;
 }
 .box1{
 
