@@ -31,7 +31,7 @@
     content: "\2796";
 }
 
-div.panel {
+.panel {
     padding: 0 18px;
     background-color: white;
     max-height: 0;
@@ -40,7 +40,7 @@ div.panel {
     opacity: 0;
 }
 
-div.panel.show {
+.panel.show {
     opacity: 1;
     max-height: 500px;
 }
