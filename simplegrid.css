@@ -11,6 +11,11 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+.panel{
+
+	overflow: hidden;
+    transition: 0.6s ease-in-out;
+}
 .box1{
 
 float: left;
@@ -66,7 +71,7 @@ resize: vertical;
 overflow: auto;
 min-width: 50px; /*suggest a min-width & min-height*/
 min-height: 50px;
-    
+
 }
 
 #transbox {
