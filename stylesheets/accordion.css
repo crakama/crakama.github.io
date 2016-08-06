@@ -15,7 +15,7 @@
    opacity:0.8
 }
 
-.accordion.active, button.accordion:hover {
+.accordion.active, .accordion:hover {
     background-color:#1B5E20 ;
 }
 
