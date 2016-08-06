@@ -30,7 +30,25 @@
 
 
    <div class="box1 " id="transbox">
-        <ul>
+
+
+   <button class="accordion">Section 1</button>
+       <a class="w3-padding-16" href="#">Link 1</a>
+    <a class="w3-padding-16" href="#">Link 2</a>
+    <a class="w3-padding-16" href="#">Link 3</a>
+
+   <button class="accordion">Section 2</button>
+
+       <a class="w3-padding-16" href="#">Link 1</a>
+    <a class="w3-padding-16" href="#">Link 2</a>
+    <a class="w3-padding-16" href="#">Link 3</a>
+
+   <button class="accordion">Section 3</button>
+
+       <a class="w3-padding-16" href="#">Link 1</a>
+    <a class="w3-padding-16" href="#">Link 2</a>
+    <a class="w3-padding-16" href="#">Link 3</a>
+      <!--   <ul>
         <li >
      
         <a style = "text-align: center" href="#">Portfolio<span class="st-arrow">Open or Close</span></a>
@@ -62,7 +80,7 @@
 
         </div>
   </li>
-   </ul> <!--############ End of ul  portfolio ############-->
+   </ul> <!--############ End of ul  portfolio ############--> -->
       </div>
   
 
@@ -78,6 +96,20 @@
       </div>  <!--############ End div overall st-accordion ############-->
        </div> <!--############ End div wrapper############-->
           </div> <!-- End div container -->
+
+          <script>
+           var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].onclick = function(){
+                    this.classList.toggle("active");
+                    this.nextElementSibling.classList.toggle("show");
+              }
+            }
+           </script>
+
+           <!-- <link rel="stylesheet" type="" href="javaScript" /> -->
   </body>
 
 </html>
